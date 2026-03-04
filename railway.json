@@ -21,8 +21,6 @@
 }
 ```
 
-The key change is adding `pip install -r src/backend/requirements.txt &&` at the **start** of the `startCommand`. This guarantees deps are installed before anything runs, regardless of whether the build phase succeeded.
-
-Also go to Railway → **Variables** and add:
+And in Railway → **Variables**, add:
 ```
 PYTHONPATH=/app/src/backend
