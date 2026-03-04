@@ -1,0 +1,7 @@
+database:
+  ENGINE: django.db.backends.postgresql
+  NAME: 'railway'
+  USER: 'postgres'
+  PASSWORD: 'YVhRTCSLMyUQjpbIsXwRnyfjNpLEcwXX'
+  HOST: 'postgres.railway.internal'
+  PORT: 5432
