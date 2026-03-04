@@ -1,0 +1,7 @@
+database:
+  ENGINE: postgresql
+  NAME:
+  USER:
+  PASSWORD:
+  HOST:
+  PORT:
