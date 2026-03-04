@@ -2,6 +2,6 @@ database:
   ENGINE: postgresql
   NAME: railway
   USER: postgres
-  PASSWORD: use_env_var
+  PASSWORD: YVhRTCSLMyUQjpbIsXwRnyfjNpLEcwXX
   HOST: postgres.railway.internal
   PORT: 5432
