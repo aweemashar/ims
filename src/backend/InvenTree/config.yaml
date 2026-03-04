@@ -1,2 +1,7 @@
 database:
   ENGINE: postgresql
+  NAME: railway
+  USER: postgres
+  PASSWORD: use_env_var
+  HOST: ballast.proxy.rlwy.net
+  PORT: 5432
