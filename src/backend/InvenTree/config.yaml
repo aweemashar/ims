@@ -4,4 +4,4 @@ database:
   USER: postgres
   PASSWORD: use_env_var
   HOST: ballast.proxy.rlwy.net
-  PORT: 5432
+  PORT: 34062
