@@ -14,7 +14,7 @@
     }
   },
   "deploy": {
-    "startCommand": "pip install -r src/backend/requirements.txt && python src/backend/InvenTree/manage.py migrate --noinput && python src/backend/InvenTree/manage.py collectstatic --noinput && gunicorn --chdir src/backend/InvenTree InvenTree.wsgi --bind 0.0.0.0:$PORT",
+    "startCommand": "mkdir -p /tmp/inventree/backup /tmp/inventree/static /tmp/inventree/media && pip install -r src/backend/requirements.txt && python src/backend/InvenTree/manage.py migrate --noinput && python src/backend/InvenTree/manage.py collectstatic --noinput && gunicorn --chdir src/backend/InvenTree InvenTree.wsgi --bind 0.0.0.0:$PORT"    
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
