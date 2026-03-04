@@ -19,8 +19,3 @@
     "restartPolicyMaxRetries": 10
   }
 }
-```
-
-And in Railway → **Variables**, add:
-```
-PYTHONPATH=/app/src/backend
